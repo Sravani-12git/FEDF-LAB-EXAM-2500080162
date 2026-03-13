@@ -9,7 +9,6 @@ import Task from './Task'
 
 import "./style.css";
 import "./navbar.css";
-
 function NavBar() {
   return (
     <div>
@@ -43,6 +42,7 @@ function NavBar() {
         <Route path="/TaskDisplay" element={<TaskDisplay/>}/>
 
  <Route path="/task" element={<Task/>}/>
+ <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
 
     </div>
