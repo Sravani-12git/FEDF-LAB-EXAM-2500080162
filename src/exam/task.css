@@ -1,0 +1,49 @@
+.page-container{
+  width:40px;
+  margin:60px ;
+}
+
+.card{
+  padding:20px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  background:white;
+}
+
+input, textarea, select{
+  width:10%;
+  padding:8px;
+  margin:8px 0;
+}
+
+button{
+  width:10%;
+  padding:10px;
+  background:#1976d2;
+  color:white;
+  border:none;
+}.page-container{
+  width:40px;
+  margin:60px auto;
+}
+
+.card{
+  padding:20px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  background:white;
+}
+
+input, textarea, select{
+  width:100%;
+  padding:8px;
+  margin:8px 0;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  background:#1976d2;
+  color:white;
+  border:none;
+}
